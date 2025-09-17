@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hygia Loft – Start</title>
+  <meta name="description" content="Hygia Loft – Wohlfühlen & Gesundheit.">
+  <style>
+    :root{--bg:#0a2a28;--light:#f6f8f7;--txt:#0e1b18;--muted:#5b6f6a;--primary:#12b886;--radius:14px;}
+    *{box-sizing:border-box}
+    body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;color:var(--txt);background:#fff}
+    .container{max-width:1100px;margin:auto;padding:0 18px}
+    header{position:sticky;top:0;background:#fff;border-bottom:1px solid #e8eeec}
+    .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .brand{display:flex;gap:10px;align-items:center;text-decoration:none;color:var(--txt);font-weight:800}
+    nav a{margin-left:16px;color:var(--txt);text-decoration:none}
+    nav .btn{margin-left:24px}
+    .btn{display:inline-block;padding:12px 16px;border-radius:10px;background:var(--primary);color:#fff;text-decoration:none;font-weight:700}
+    .btn.ghost{background:transparent;color:var(--primary);border:2px solid var(--primary)}
+    .hero{background:linear-gradient(120deg,#0a2a28 0%,#124b44 100%);color:#fff;padding:48px 0}
+    .hero h1{margin:0 0 8px 0;font-size:clamp(26px,5vw,40px)}
+    .hero p{margin:0 0 18px 0;opacity:.9}
+    .cta{display:flex;gap:12px;flex-wrap:wrap}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .card{background:#fff;border:1px solid #e7edea;border-radius:var(--radius);padding:18px}
+    .card h3{margin:0 0 6px}
+    .footer{background:var(--light);padding:28px 0;margin-top:36px;color:var(--muted);font-size:14px}
+    .arrow{display:inline-block;margin-top:8px;color:var(--primary);text-decoration:none;font-weight:700}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container bar">
+      <a class="brand" href="index.html">Hygia Loft</a>
+      <nav>
+        <a href="index.html">Start</a>
+        <a href="angebote.html">Angebote</a>
+        <a href="preise.html">Preise</a>
+        <a href="ueber-uns.html">Über uns</a>
+        <a href="galerie.html">Galerie</a>
+        <a class="btn" href="kontakt.html">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Wohlfühlen. Energie. Balance.</h1>
+      <p>Fitness & Physiotherapie – moderne Anwendungen für Rücken, Regeneration und Performance.</p>
+      <div class="cta">
+        <a class="btn" href="kontakt.html#termin">Termin anfragen</a>
+        <a class="btn ghost" href="angebote.html">Angebote ansehen</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="container" style="padding:28px 0">
+    <div class="grid">
+      <article class="card">
+        <h3>Schnelle Termine</h3>
+        <p>Kurze Wartezeiten – online anfragen, wir melden uns fix.</p>
+        <a class="arrow" href="kontakt.html#termin">Mehr erfahren →</a>
+      </article>
+      <article class="card">
+        <h3>Qualität & Hygiene</h3>
+        <p>Moderne Ausstattung, geprüfte Produkte und hohe Standards.</p>
+        <a class="arrow" href="ueber-uns.html">Mehr erfahren →</a>
+      </article>
+      <article class="card">
+        <h3>Transparente Preise</h3>
+        <p>Klar strukturierte Pakete – ohne Überraschungen.</p>
+        <a class="arrow" href="preise.html">Mehr erfahren →</a>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © 2025 Hygia Loft · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a>
+    </div>
+  </footer>
+</body>
+</html>
