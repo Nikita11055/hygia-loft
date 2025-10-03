@@ -1,16 +1,6 @@
 --- a/index.html
 +++ b/index.html
-@@ -1,10 +1,30 @@
--<!DOCTYPE html>
--<html lang="de">
--<head>
--  <meta charset="UTF-8">
--  <title>Hygia Loft</title>
--</head>
--<body>
--  <h1>🚀 Autopilot Test läuft!</h1>
--</body>
--</html>
+@@ -0,0 +1,30 @@
 +<!DOCTYPE html>
 +<html lang="de">
 +<head>
