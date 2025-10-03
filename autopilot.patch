@@ -1,13 +1,16 @@
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..1111111
 --- /dev/null
 +++ b/index.html
 @@ -0,0 +1,9 @@
 +<!DOCTYPE html>
 +<html lang="de">
 +<head>
-+    <meta charset="UTF-8">
-+    <title>Hygia Loft Autopilot Test</title>
++  <meta charset="UTF-8">
++  <title>Hygia Loft Autopilot Test</title>
 +</head>
 +<body>
-+    <h1>🚀 Autopilot läuft jetzt grün!</h1>
++  <h1>🚀 Autopilot läuft jetzt grün!</h1>
 +</body>
 +</html>
