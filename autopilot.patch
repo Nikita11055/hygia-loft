@@ -1,6 +1,41 @@
 --- a/index.html
 +++ b/index.html
-@@ -0,0 +1,3 @@
-+<!-- Test-Patch ✅ -->
-+<h2 style="color:green;">Autopilot Commit erfolgreich!</h2>
+@@ -1,10 +1,30 @@
+-<!DOCTYPE html>
+-<html lang="de">
+-<head>
+-  <meta charset="UTF-8">
+-  <title>Hygia Loft</title>
+-</head>
+-<body>
+-  <h1>🚀 Autopilot Test läuft!</h1>
+-</body>
+-</html>
++<!DOCTYPE html>
++<html lang="de">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport" content="width=device-width, initial-scale=1.0">
++  <title>Hygia Loft – Neue Startseite</title>
++  <link rel="stylesheet" href="assets/css/style.css">
++</head>
++<body>
++  <header>
++    <nav>
++      <ul>
++        <li><a href="#">Start</a></li>
++        <li><a href="#">Angebote</a></li>
++        <li><a href="#">Über uns</a></li>
++        <li><a href="#">Kontakt</a></li>
++      </ul>
++    </nav>
++    <h1>Willkommen im Hygia Loft 🚀</h1>
++  </header>
 +
++  <main>
++    <p>Hier entsteht die neue Webseite.</p>
++  </main>
++
++  <footer>&copy; 2025 Hygia Loft</footer>
++</body>
++</html>
