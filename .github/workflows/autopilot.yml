@@ -38,7 +38,9 @@ jobs:
             exit 1
           fi
 
-                  git config user.name "hygia-bot"
+      - name: Commit & Push changes
+        run: |
+          git config user.name "hygia-bot"
           git config user.email "hygia-bot@example.com"
           git commit -m "[autopilot] apply patch"
           git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }} HEAD:main
