@@ -1,9 +1,0 @@
---- a/index.html
-+++ b/index.html
-@@ -1,3 +1,6 @@
- <!DOCTYPE html>
- <html lang="de">
- <head>
-+  <!-- Autopilot-Test: Änderung eingespielt ✅ -->
-+  <!-- Wenn du das siehst, funktioniert der Workflow -->
-+
