@@ -1,9 +1,9 @@
 --- a/index.html
 +++ b/index.html
-@@ -4,7 +4,7 @@
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
--  <title>Hygia Loft</title>
-+  <title>Hygia Loft – Autopilot ✅</title>
-   <link rel="stylesheet" href="assets/css/style.css">
+@@ -8,6 +8,8 @@
  </head>
+ <body>
+-  <h1>🚀 Autopilot Test läuft!</h1>
++  <h1>🚀 Autopilot läuft jetzt über GH_TOKEN!</h1>
+ </body>
+ </html>
