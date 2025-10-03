@@ -1,124 +1,23 @@
-diff --git a/index.html b/index.html
-new file mode 100644
-index 0000000..1111111
---- /dev/null
-+++ b/index.html
-@@
-+<!DOCTYPE html>
-+<html lang="de">
-+<head>
-+  <meta charset="UTF-8" />
-+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-+  <title>Hygia Loft – Fitness & Physiotherapie</title>
-+  <link rel="stylesheet" href="assets/css/style.css" />
-+</head>
-+<body>
-+  <header class="site-header">
-+    <div class="container">
-+      <h1 class="logo">Hygia Loft</h1>
-+      <nav>
-+        <ul>
-+          <li><a href="#start">Start</a></li>
-+          <li><a href="#kurse">Kurse</a></li>
-+          <li><a href="#training">Training</a></li>
-+          <li><a href="#kontakt">Kontakt</a></li>
-+        </ul>
-+      </nav>
-+    </div>
-+  </header>
-+
-+  <section id="start" class="hero">
-+    <div class="hero-text">
-+      <h2>Willkommen im Hygia Loft</h2>
-+      <p>Fitness & Gesundheit in Balance</p>
-+    </div>
-+  </section>
-+
-+  <main>
-+    <section id="kurse">
-+      <h2>Kursplan</h2>
-+      <p>Hier erscheint bald der Kursplan.</p>
-+    </section>
-+
-+    <section id="training">
-+      <h2>Training</h2>
-+      <p>Hier erscheinen Infos zum Training.</p>
-+    </section>
-+  </main>
-+
-+  <footer id="kontakt">
-+    <p>&copy; 2025 Hygia Loft – Alle Rechte vorbehalten.</p>
-+  </footer>
-+
-+  <script src="assets/js/main.js"></script>
-+</body>
-+</html>
-diff --git a/assets/css/style.css b/assets/css/style.css
-new file mode 100644
-index 0000000..2222222
---- /dev/null
-+++ b/assets/css/style.css
-@@
-+* {
-+  margin: 0;
-+  padding: 0;
-+  box-sizing: border-box;
-+}
-+
-+body {
-+  font-family: Arial, sans-serif;
-+  background: #111;
-+  color: #eee;
-+  line-height: 1.6;
-+}
-+
-+.site-header {
-+  background: #222;
-+  padding: 1rem;
-+  position: sticky;
-+  top: 0;
-+}
-+
-+.site-header nav ul {
-+  list-style: none;
-+  display: flex;
-+  gap: 1rem;
-+}
-+
-+.site-header nav a {
-+  color: orange;
-+  text-decoration: none;
-+}
-+
-+.site-header nav a:hover {
-+  color: #fff;
-+}
-+
-+.hero {
-+  background: #333;
-+  color: #fff;
-+  padding: 4rem 2rem;
-+  text-align: center;
-+}
-+
-+footer {
-+  background: #222;
-+  text-align: center;
-+  padding: 1rem;
-+  margin-top: 2rem;
-+}
-diff --git a/assets/js/main.js b/assets/js/main.js
-new file mode 100644
-index 0000000..3333333
---- /dev/null
-+++ b/assets/js/main.js
-@@
-+// Smooth scroll for navigation
-+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-+  anchor.addEventListener("click", function (e) {
-+    e.preventDefault();
-+    document.querySelector(this.getAttribute("href")).scrollIntoView({
-+      behavior: "smooth"
-+    });
-+  });
-+});
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 AppleColorEmoji;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 diff --git a/index.html b/index.html\
+new file mode 100644\
+index 0000000..b6fc4c3\
+--- /dev/null\
++++ b/index.html\
+@@ -0,0 +1,7 @@\
++<!DOCTYPE html>\
++<html lang="de">\
++<head>\
++  <meta charset="UTF-8">\
++  <title>Hygia Loft Autopilot Test</title>\
++</head>\
++<body><h1>
+\f1 \uc0\u55357 \u56960 
+\f0  Autopilot funktioniert!</h1></body>\
++</html>}
