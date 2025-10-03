@@ -1,9 +1,4 @@
 --- a/index.html
 +++ b/index.html
-@@ -8,6 +8,8 @@
- </head>
- <body>
--  <h1>🚀 Autopilot Test läuft!</h1>
-+  <h1>🚀 Autopilot läuft jetzt über GH_TOKEN!</h1>
- </body>
- </html>
+@@ -999,0 +1000,2 @@
++<!-- Testeintrag: Autopilot hat funktioniert ✅ -->
