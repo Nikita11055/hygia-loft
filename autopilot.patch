@@ -7,10 +7,10 @@ index 0000000..e69de29
 +<!DOCTYPE html>
 +<html lang="de">
 +<head>
-+  <meta charset="UTF-8">
-+  <title>Hygia Loft Autopilot Test</title>
++    <meta charset="UTF-8">
++    <title>Hygia Loft Autopilot Test</title>
 +</head>
 +<body>
-+  <h1>🚀 Autopilot funktioniert!</h1>
++    <h1>🚀 Autopilot funktioniert!</h1>
 +</body>
 +</html>
