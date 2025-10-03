@@ -1,0 +1,44 @@
+name: Hygia Autopilot
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "autopilot.patch"
+    branches:
+      - main
+
+jobs:
+  autopilot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Apply patch (checked)
+        run: |
+          test -f autopilot.patch || { echo "No autopilot.patch found"; exit 0; }
+          git apply --check autopilot.patch || { echo "❌ Patch failed"; exit 1; }
+          git apply --index autopilot.patch
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          if git diff --cached --name-only | grep -q '^\.github/workflows/'; then
+            echo "❌ Patch tries to change workflow files. Aborting."
+            git reset --hard
+            exit 1
+          fi
+
+          git config user.name "hygia-bot"
+          git config user.email "hygia-bot@example.com"
+          git commit -m "[autopilot] apply patch"
+          git push
+
+      - name: Cleanup
+        if: ${{ always() }}
+        run: |
+          rm -f autopilot.patch || true
