@@ -1,12 +1,59 @@
 diff --git a/index.html b/index.html
 new file mode 100644
+index 0000000..e69de29
 --- /dev/null
 +++ b/index.html
-@@ -0,0 +1,6 @@
+@@ -0,0 +1,20 @@
 +<!DOCTYPE html>
-+<html>
-+<head><title>Test</title></head>
++<html lang="de">
++<head>
++  <meta charset="UTF-8">
++  <meta name="viewport" content="width=device-width, initial-scale=1.0">
++  <title>Hygia Loft</title>
++  <link rel="stylesheet" href="assets/css/style.css">
++</head>
 +<body>
-+<h1>✅ Autopilot Test läuft!</h1>
++  <header>
++    <h1>Willkommen im Hygia Loft 🚀</h1>
++  </header>
++  <main>
++    <section class="hero">
++      <h2>Dein Studio für Fitness & Gesundheit</h2>
++      <p>Hier entsteht unsere neue Website mit Autopilot.</p>
++    </section>
++  </main>
++  <footer>&copy; 2025 Hygia Loft</footer>
 +</body>
 +</html>
+diff --git a/assets/css/style.css b/assets/css/style.css
+new file mode 100644
+index 0000000..e69de29
+--- /dev/null
++++ b/assets/css/style.css
+@@ -0,0 +1,18 @@
++body {
++  font-family: Arial, sans-serif;
++  margin: 0;
++  padding: 0;
++  background: #f5f5f5;
++  color: #333;
++  text-align: center;
++}
++header {
++  background: #222;
++  color: white;
++  padding: 1rem;
++}
++.hero {
++  padding: 2rem;
++  background: white;
++  margin: 2rem;
++  border-radius: 8px;
++  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
++}
++footer {
++  background: #222;
++  color: white;
++  padding: 1rem;
++  margin-top: 2rem;
++}
